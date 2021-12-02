@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+h1{
+    font-size: 100px;
+}
+img{
+    width: 2500px;
+    height: 1000px;
+    
+}
+.tam{
+    font-size: 20px;
+    color: white;
+    padding-left: 450px;
+    
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.music{
+    font-size: 140px;
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-42%, -50%);
+    
+}
+#matt{
+    width: 600px;
+    height: 700px;
+    float: right;
+    padding-right:  500px;
+}
+.tamLetra{
+    font-size: 20px;
+    padding-left: 450px;
+}
+
+h2{
+    padding-left: 450px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.wesley{
+    width: 600px;
+    height: 700px;
+    padding-left: 380px;;
+}
+.flotar{
+    float: right;
+}
+.alinear{
+    padding-right:  840px; 
+}
+.color{
+    color: rgb(197, 64, 87);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 840px;
+    padding-top: 50px;
+} 
+.parrafo2{
+    padding-left: 450px;
+    font-size: 20px;
+}
+.imagen2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.parrafo{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 75%;
+    transform: translate(-42%, -50%);
+}
+.letra{
+    font-size: 50px;
+    padding-right: 400px;
+}
+
+
+.text{
+    float: left;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 400px;
+    
+}
+.text1{
+    float: left;
+    padding-left:  200px;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.text2{
+    float: left;
+    padding-right: 200px;
+    padding-top: 50px;
+
+}
+button{
+    background-color: rgb(238, 78, 104);
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin-left: 450px;
+    color: white;
+
+    
+}
+.boton2{
+    background-color:  rgb(238, 78, 104);
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-right: 1000px;
+    color: white;
+   
+}
+footer{
+    height: 600px;
+    width: 2500px;
+    background-color: rgb(238, 78, 104);
+    color: white;
+}
+.bordo{
+   padding-left: 200px;
+   padding-right: 200px;
+   margin-top: 20px;
+}
+
+@media (max-width: 1200px){
+    .music{
+        font-size: 65px;
+    }
+    img{
+        width: 640px;
+        height: 234px;
+    }
+    .imagen{
+        width: -1px;
+    }
+    #matt{
+        width: 218px;
+        height: 272px ;
+        padding-right: 606px;
+    }
+    h2{
+        padding-left: 40px;
+    }
+    .tamLetra{
+        padding-left: 38px;
+    }
+    button{
+        margin-left: 62px;
+    }
+    .wesley{
+        float: left;
+        width: 220px;
+        height: 213px;
+        padding-left: 0px;
+    }
+    .flotar h2{
+        padding-left: 88px;
+        padding-right: 0px;
+    }
+    .parrafo2{
+        padding-left: 404px;
+        font-size: 20px;
+    }
+    .imagen2{
+        width: 1000px;
+        height: 200px;
+    }
+    
+}
+@media (max-width: 992px){
+    .music{
+        font-size: 105px;
+        margin-left: 81px;
+    }
+    .imagen{
+        width: 800px;
+    }
+    img{
+        width: 964px;
+        height: 352px;
+    }
+    #matt{
+        width: 321px;
+        height: 411px;
+        padding-right:  148px;
+    }
+    .tamLetra{
+        padding-left: 80px;
+    }
+    h2{
+        padding-left: 80px;
+    }
+    button{
+        margin-left: 76px;
+    }
+    .wesley{
+        padding-left: 0px;
+        width: 333px;
+        height: 389px;
+    }
+    .flotar h2{
+        padding-left: 412px;
+        padding-right: 0px;
+    }
+    .parrafo2{
+        width: 28vw;
+        padding-left: 412px;
+    }
+    .flotar button{
+        margin-left: 499px ;
+        margin-bottom: 10px;
+    }
+    .imagen2 h1, p{
+        padding-right: 516px;
+    }
+
+    .text1{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .text{
+        padding-left: 126px;
+        padding-right: 100px;
+    }
+    .bordo{
+        padding-left: 41px;
+
+    }
+    .flotar{
+        float: right;
+    }
+    footer{
+        width: 963px;
+    }
+    .text2{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        align-items: center;
+    }
+    #matt{
+        padding-right: 40px;
+        width: 357px;
+        height: 466px;
+    }
+    h2{
+        padding-left: 43px;
+    }
+    .tamLetra{
+        padding-left: 46px;
+    }
+}
+
+@media (max-width: 576px){
+    .imagen{
+        width: 493px;
+    }
+    img{
+        width: 559px;
+        height: 406px;
+    }
+    #matt{
+        padding-right: 2px;
+        width: 259px;
+        height: 351px;
+    }
+    h2{
+        font-size: 20px;
+        padding-top: 0px;
+    }
+    .tamLetra{
+        width: 43vw;
+    }
+    .wesley{
+        padding-left: 0px;
+        width: 526px;
+        height: 422px;
+    }
+    .flotar h2{
+        padding-left: 54px;
+    }
+    .parrafo2{
+        width: 90vw;
+        padding-left: 58px;
+    }
+    .flotar button{
+        margin-left: 321px;
+        margin-bottom: 39px;
+    }
+    .letra{
+        font-size: 25px;
+    }
+    .imagen2 p{
+        width: 90vw;
+        padding-left: 95px;
+    }
+    .imagen2 button{
+        margin-right: 317px;
+    }
+    .text{
+        padding-left: 35px;
+        padding-right: 0px;
+    }
+    .text2{
+        padding-left: 46px;
+        padding-right: 0px;
+    }
+}
